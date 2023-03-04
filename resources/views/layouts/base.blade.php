@@ -10,7 +10,7 @@
 <body>
     <nav class="bg-gray-100 font-bold flex justify-between p-5">
         <span>Branc</span>
-        <span>Hello, {{$name}}</span>
+        <span>Hello, @yield('name')</span>
     </nav>
     <section 
     class="bg-gray-100 h-1/2 flex flex-col justify-center items-center font-bold"
